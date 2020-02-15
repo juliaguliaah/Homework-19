@@ -1,0 +1,26 @@
+.navbar {
+    justify-content: space-between;
+    
+}
+.navbar-brand {
+    font-family: 'Lora Regular', serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: #F27289 !important;
+}
+.nav-link {
+    font-family: 'Merriweather Light', serif;
+}
+.nav-item .nav-link:hover {
+    color: #F27289 !important;
+}
+.collapse {
+    flex-grow: 0 !important;
+}
+.navbar-collapse {
+	flex-grow: 0 !important; /* aligns the navbar to the right side, and ensures justify content = space between"*/
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: transparent;
+}

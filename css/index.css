@@ -1,0 +1,223 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.card {
+    margin: 15px;
+}
+.navbar {
+    justify-content: space-between;
+    
+}
+.navbar-brand {
+    font-family: 'Lora Regular', serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: #F27289 !important;
+}
+.nav-link {
+    font-family: 'Merriweather Light', serif;
+}
+.nav-item .nav-link:hover {
+    color: #F27289 !important;
+}
+.collapse {
+    flex-grow: 0 !important;
+}
+.navbar-collapse {
+	flex-grow: 0 !important; /* aligns the navbar to the right side, and ensures justify content = space between"*/
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: transparent;
+}
+
+h1 {
+    font-family: 'Lora Light', serif;
+    color: white;
+}
+p {
+    font-family: 'Merriweather Light', serif;
+    color: white;
+}
+.hiJulia {
+    background-color: rgba(255,255,255, 0.3);
+    width: 50%;
+}
+.btn {
+    background-color: #f27289;
+    border-width: 0ch;
+    font-family: 'Merriweather Light', serif;
+}
+.btn:hover {
+    background-color: #D2D6D9;
+    color: black;
+    font-family: 'Merriweather Light', serif;
+}
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px;
+    z-index: 99;
+    border: none; 
+    outline: none;
+    background-color: #F27289;
+    color: white; 
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+  
+#myBtn:hover {
+    background-color: #D2D6D9; 
+    color: black;
+}
+.jumbotronHero {
+   
+    background-image: url(../Images/pawel-czerwinski-hR545CzxZxk-unsplash.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0;
+    margin-bottom: 70px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(247, 154, 174, 0.2);
+    margin: 30px;
+}
+.card-img-top {
+    border-radius: 0ch;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card-link {
+    color: black;
+}
+.card-link:hover {
+    color: #F27289 !important;
+}
+.card-title {
+    font-family: 'Lora Bold', Serif;
+    font-weight: 400;
+}
+.card-text {
+    color: black;
+}
+.display-4 {
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.jumbotron-fluid .lead {
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+}
+.jumbotron-fluid {
+    background-color: #F2C2C2;
+    margin-top: 70px;
+}
+.profileimg img {
+    background-image: url(../Images/IMG_6156.jpg);
+    height: 300px;
+    width: auto;
+    background-position: center;
+    border-radius: 50%;
+    animation: float 6s ease-in-out infinite;
+}
+.table {
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: white;
+    text-align: center;
+    font-family: 'Merriweather Light', serif;
+    font-size: 15px;
+}
+.blockquote {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.mb-0 {
+    color: black;
+    font-size: 25px;
+}
+.blockquote-footer {
+    display: block;
+    font-size: 80%;
+    color: #F2C2C2;
+}
+.topFooter {
+    background-color: #D2D6D9;
+    margin-bottom: 1;
+    padding-bottom: 0;
+    margin-top: 5px;
+}
+h3 {
+    font-size: 20px;
+    font-family: 'Lora Regular', serif;
+    text-align: center;
+    color: black;
+    margin-bottom: -12px;
+    padding-top: 30px;
+}
+form {
+    margin: 50px;
+    background-color: #D2D6D9;
+}
+.form-group {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.form-control {
+    color: #495057;
+}
+textarea.form-control {
+    height: 150PX;
+}
+.btn-outline-secondary {
+    color: #6c757d;
+    border-color: #f27289 !important;
+    background-color: white !important;
+    margin-top: 15px;
+    float: left;
+}
+.footer {
+    height: 100px;
+    display: flex;
+    align-content: center !important;
+    justify-content: center !important;
+    background-color: #D2D6D9;
+}
+.nav-link {
+    color: black;
+}
+.nav-link:hover {
+    color: #F27289;
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
